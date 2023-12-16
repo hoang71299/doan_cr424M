@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_sub_scene"
+    tools:context=".SubActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#" />
+
+            <TextView
+                android:id="@+id/txtmaso1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="57207" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên bài hát:" />
+
+            <TextView
+                android:id="@+id/txtbaihat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chén Đắng (remix)" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lời bài hát" />
+
+            <TextView
+                android:id="@+id/txtloibaihat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bước chân lặng thầm,về trên con phố khuya vắng em ..." />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tác giả" />
+
+            <TextView
+                android:id="@+id/txttacgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trương lê Sơn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yêu thích" />
+
+            <ImageButton
+                android:id="@+id/btnlikesub"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/love" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
